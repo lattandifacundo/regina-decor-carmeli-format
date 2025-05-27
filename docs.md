@@ -44,7 +44,7 @@ Example: Génesis 1:1/10 = `*/genesis-1-1/10`
 
 #### Versicle and nexts reference
 
-Example: Génesis 1 ss. = `*/genesis-1-ss`
+Example: Génesis 1:1 ss. = `*/genesis-1-1-ss`
 
 ### Chapter reference
 
