@@ -3,6 +3,10 @@ ref: juan-1
 ---
 # Gospel according to Saint John 1
 ## Subtitle 1
-*1 Versicle with out note *2(note 1 */juan-1-2) versicle with note
+*1 Versicle with out note
+*2{{note 1 */juan-1-2}} versicle with note
 ## Subtitle 2
-*3 Versicle three *4(*/juan-1-5/6) versicle four *5 versicle five *6 versicle six
+*3 Versicle three
+*4{{*/juan-1-5/6}} versicle four
+*5 versicle\nfive
+*6 versicle six _italian text_

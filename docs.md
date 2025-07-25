@@ -17,6 +17,10 @@ ref: juan_1
 ## Structure
 
 The following is the structure used for the text format:
+**Every versicle goes in a new line** for git and scalability porposes, but this new lines in the file are ignored by parsers, for explicit new lines you need to use `\n`, in parsers this will add a `\n\t` as uses of new line in bible context requires.
+
+### Italian text
+Italian text can be used as in markdown: `_text_`
 
 ### Title
 A title is denoted by a single `#` at the beginning of the line (Usually only used to name the chapter).
@@ -25,14 +29,20 @@ A title is denoted by a single `#` at the beginning of the line (Usually only us
 A subtitle is denoted by a double `##` at the beginning of the line.
 
 ### Versicle Number
-A versicle number is represented as `\*[0-9]{0,3}` (RegEx), where the number can be one to three digits.
+A versicle number is represented as `\*[0-9]{0,3} ` (RegEx), where the number can be one to three digits.
 
-Example: `*123`
+Example: `*123 `
 
 ### Versicle with Note Number
-A versicle with an associated note number is written as `*[0-9]{0,3}\{\{.\}\}`(RegEx), where the dot indicates the note.
+A versicle with an associated note number is written as `*[0-9]{0,3}\{\{.\}\} `(RegEx), where the dot indicates the note.
 
-Example: `*123{{note}}`
+Example: `*123{{note}} `
+
+#### Vesicle with Note Number and next
+Example: `*123{{s. note}} `
+
+#### Vesicle with Note Number and nexts
+Example: `*123{{ss. note}} `
 
 ### Vercicle reference
 
